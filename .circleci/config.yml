@@ -3,7 +3,7 @@ orbs:
   win: circleci/windows@2.2.0
 
 jobs:
-  build_win:
+  build:
     executor:
       name: win/default
       shell: powershell.exe
@@ -47,8 +47,11 @@ jobs:
           destination: ~/adsorptioninformationformat
 
 workflows:
-  version: 2
-  build_and_test:
+  version: 2.1
+  main:
     jobs:
-      - test
-      - build_win
+    - test
+    - build:
+        filters:
+          branches:
+            only: master
