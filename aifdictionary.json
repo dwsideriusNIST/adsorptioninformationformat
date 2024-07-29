@@ -9,6 +9,7 @@
      {"data name": "_exptl_isotherm_type", "description":"description of isotherm type, eg. absolute, excess, net (string)", "variable_type": "string", "required": "True", "depend_on": [""], "label": "Experimental Isotherm Type", "loop_var": "False"},
      {"data name": "_exptl_p0", "description": "saturation pressure of the experiment at the temperature of the experiment (float)", "variable_type": "float", "required": "True", "depend_on": ["_units_pressure"], "label": "Experimental p0", "loop_var": "False"},
      {"data name": "_exptl_digitizer", "description":"name of the person who digitized the experiment (string)", "variable_type": "string", "required": "False", "depend_on": [""], "label": "Experimental Digitizer", "loop_var": "False"},
+     {"data name": "_exptl_comment", "description":"comment left by user of aif generator (string)", "variable_type": "string", "required": "False", "depend_on": [""], "label": "Experimental Comment", "loop_var": "False"},
 
      {"data name": "_adsnt_sample_mass", "description":"mass of the sample (float)", "variable_type": "float", "required": "True", "depend_on": ["_units_mass"], "label": "Adsorbent Sample Mass", "loop_var": "False"},
      {"data name": "_adsnt_sample_density", "description":"density of the sample (float)", "variable_type": "float", "required": "True", "depend_on": ["_units_density"], "label": "Adsorbent Sample Density", "loop_var": "False"},
