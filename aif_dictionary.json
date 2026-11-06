@@ -444,7 +444,7 @@
       "type": "object",
       "properties": {
         "_adsorp_index": {
-          "type": "number",
+          "type": "integer",
           "description": "Index of the adsorption data point, starting from 1 and incrementing by 1 for each point.",
           "x-schema-star-type-purpose": "Key",
           "x-schema-star-type-source": "Assigned"
@@ -616,7 +616,7 @@
       "type": "object",
       "properties": {
         "_desorp_index": {
-          "type": "number",
+          "type": "integer",
           "description": "Index of the desorption data point, starting from 1 and incrementing by 1 for each point.",
           "x-schema-star-type-purpose": "Key",
           "x-schema-star-type-source": "Assigned"

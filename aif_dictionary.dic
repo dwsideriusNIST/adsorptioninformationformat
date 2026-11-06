@@ -1472,7 +1472,7 @@ save_adsorp.index
     _type.purpose                Key
     _type.source                 Assigned
     _type.container              Single
-    _type.contents               Real
+    _type.contents               Integer
 save_
 
 save_adsorp.pressure
@@ -2258,7 +2258,7 @@ save_desorp.index
     _type.purpose                Key
     _type.source                 Assigned
     _type.container              Single
-    _type.contents               Real
+    _type.contents               Integer
 save_
 
 save_desorp.pressure

@@ -373,7 +373,7 @@ slots:
   adsorp_index:
     aliases: ["_adsorp_index"]
     description: "Index of the adsorption data point, starting from 1 and incrementing by 1 for each point."
-    range: float
+    range: integer
 
   adsorp_pressure:
     aliases: ["_adsorp_pressure"]
@@ -575,7 +575,7 @@ slots:
   desorp_index:
     aliases: ["_desorp_index"]
     description: "Index of the desorption data point, starting from 1 and incrementing by 1 for each point."
-    range: float
+    range: integer
 
   desorp_pressure:
     aliases: ["_desorp_pressure"]
